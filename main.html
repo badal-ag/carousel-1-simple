@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Carousel</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="images">
+                <img src="image1.jpg">
+                <img src="image2.jpg">
+                <img src="image3.jpg">
+                <img src="image4.jpg">
+                <img src="image5.jpg">
+            </div>
+            <div onclick="side_slide(-1)" class="slide left">
+                <span class="fa fa-angle-left"></span>
+            </div>
+            <div onclick="side_slide(1)" class="slide right">
+                <span class="fa fa-angle-right"></span>
+            </div>
+            <div class="btm-sliders">
+                <span onclick="btm_slide(1)"></span>
+                <span onclick="btm_slide(2)"></span>
+                <span onclick="btm_slide(3)"></span>
+                <span onclick="btm_slide(4)"></span>
+                <span onclick="btm_slide(5)"></span>
+            </div>
+        </div>
+        <script src="javascript.js"></script>          
+    </body>
+</html>
